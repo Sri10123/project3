@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Happy Three Months!!!</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<h1><span style = 'border: solid darkred 5px; border-radius: 10px; '> Happy Three Months!!! </span></h1>
+	<h2><span style = 'border: solid darkred 5px; border-radius: 10px; '> Shreya & Sri </span></h2>
+</head>
+<body>
+	<div class="row">
+		<div class="column">
+			<img src="/Users/elsri/Downloads/Anniversary/IMG_3468.jpg" style="width:33%">
+			<img src="/Users/elsri/Downloads/Anniversary/IMG_3544.JPG" style="width:33%">
+			<img src="/Users/elsri/Downloads/Anniversary/IMG_8828.jpg" style="width:33%">
+		</div>
+		<div class="column">
+			<img src="/Users/elsri/Downloads/Anniversary/IMG_9253.jpg" style="width:33%">
+			<img src="/Users/elsri/Downloads/Anniversary/IMG_9259.jpg" style="width:33%">
+			<img src="/Users/elsri/Downloads/Anniversary/IMG_9611.jpg" style="width:33%">
+		</div>
+	</div>
+
+	<script>
+		var elements = document.getElementsByClassName("column");
+		var i;
+
+		for(i = 0; i < elements.length; i++) {
+			elements[i].style.flex = "50%";
+		}
+	</script>
+	<button class = "button" onclick = "window.open('https://youtu.be/zPuVsw-Dsbc', '_blank'); return false;" style="background: url('flames.png'); background-size: cover; background-color: skyblue"> Click Here </button>
+</body>
+</html>

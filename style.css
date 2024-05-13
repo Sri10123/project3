@@ -1,0 +1,58 @@
+h1 {
+	text-align: center;
+	color: black;
+	font-size: 4em;
+	margin-top: 0em;
+	font-family: Impact;
+	letter-spacing: 5px;
+	margin-bottom: 0.5em;
+}
+
+h2 {
+	text-align: center;
+	margin-top: 0em;
+	font-family: Century Gothic;
+	letter-spacing: .5px;
+	color: black;
+}
+
+p {
+	text-align: center;
+	margin-top: 3em;
+	font-family: Verdana;
+	color: red;
+	font-size: 1.5em;
+}
+.button {
+    background-size: cover;
+    background-color: skyblue;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: darkblue;
+    display: inline-block;
+    font-size: 30px;
+    margin: 0px 0px;
+    cursor: pointer;
+    margin-top: 2em;
+    margin-left: 20em;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
